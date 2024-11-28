@@ -77,7 +77,7 @@ export async function fishing(token, type = '1', proxy) {
 
     let fish;
     ws.on('open', function open() {
-        logger(`Connected to WebSocket server using proxy: ${proxy}`);
+        logger(`Connected to WebSocket server`);
         startNewGame();
     });
 
