@@ -5,6 +5,7 @@ import { banner } from './utils/banner.js';
 import { logger } from './utils/logger.js';
 import { fishing } from './utils/game.js';
 import readline from 'readline';
+import fetch from 'node-fetch';
 
 const askQuestion = (query) => {
     const rl = readline.createInterface({
@@ -16,6 +17,12 @@ const askQuestion = (query) => {
         resolve(answer);
     }));
 };
+
+async function getPublicIP() {
+    const response = await fetch('https://ipinfo.io/json');
+    const data = await response.json();
+    return data.ip;
+}
 
 async function main() {
   logger(banner, 'debug')
@@ -36,7 +43,8 @@ async function main() {
         const { proxy, nextIndex } = getNextProxy(proxies, proxyIndex);
         proxyIndex = nextIndex;
 
-        logger(`Using proxy: ${proxy}`);
+        const publicIP = await getPublicIP();
+        logger(`Using proxy IP: ${publicIP}`);
         const profile = await getUserInfo(token, proxy);
         
         if (!profile) {
