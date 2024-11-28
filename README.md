@@ -45,8 +45,8 @@ Building the onchain economy with @base. Fishing is just the start. 🐟 Develop
 - The text that appears is your token, copy the text and paste to ``tokens.txt`` perlines
 
 ## Requirements
-- **Node.js**: Ensure you have Node.js installed.
-- **npm**: Ensure you have npm installed.
+- **Node.js**: Pastikan Nodejs sudah terinstall
+- https://nodejs.org/dist/v18.12.0/node-v18.12.0-x64.msi
 
 if you already have account you can put `fishAuth` to `tokens.txt`,
 
@@ -72,7 +72,8 @@ put your proxy in file `proxy.txt` format `http://username:pass@ip:port` `http:/
   ```
   node setup.js
   ```
-  
+- Akun di simpan di `wallets.json` login menggunakan wallet
+- Token di simpan di `tokens.txt`
   
 ## ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
