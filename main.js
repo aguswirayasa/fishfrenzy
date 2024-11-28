@@ -81,7 +81,9 @@ async function main() {
           } else if (type === '3' && profile.energy > 2) { 
             await fishing(token, type, proxy);
           } else {
-            logger(`Account #${counter} | Not Enought Energy to start fishing...`, 'warn')
+            logger(`Account #${counter} | Not Enough Energy to start fishing...`, 'warn');
+            logger('Waiting 5 hours before trying again...');
+            await new Promise(resolve => setTimeout(resolve, 18000000));
           }
           counter++;
           await new Promise(resolve => setTimeout(resolve, 5000));
