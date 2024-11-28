@@ -32,7 +32,7 @@ Building the onchain economy with @base. Fishing is just the start. 🐟 Develop
 4. [Data Impulse](https://dataimpulse.com/?aff=70583)
 
 # Get Bearer Token
-- Open [https://fishingfrenzy.co](https://fishingfrenzy.co?code=YJH7J8)
+- Open [https://fishingfrenzy.co](https://fishingfrenzy.co?code=KNL876)
 - Press F12 or CTRL + SHIFT + I
 - Select Console
 - At the console, type ```allow pasting``` and press enter
