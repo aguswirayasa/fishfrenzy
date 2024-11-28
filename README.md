@@ -48,7 +48,7 @@ Building the onchain economy with @base. Fishing is just the start. 🐟 Develop
 - **Node.js**: Pastikan Nodejs sudah terinstall
 - https://nodejs.org/dist/v18.12.0/node-v18.12.0-x64.msi
 
-- Jika Anda sudah memiliki akun, Anda dapat memasukkannya fishAuthke tokens.txt,
+- Jika Anda sudah memiliki akun, Anda dapat memasukkannya `fishAuth` ke `tokens.txt`
 - Masukkan proxy Anda dalam `proxy.txt` format file `http://username:pass@ip:port` `http://ip:port`
 
 ## HOW TO RUN AUTO MANCING
