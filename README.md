@@ -52,28 +52,31 @@ if you already have account you can put `fishAuth` to `tokens.txt`,
 
 put your proxy in file `proxy.txt` format `http://username:pass@ip:port` `http://ip:port`
 
-## How to run
+## HOW TO RUN AUTO MANCING
 
-1. Clone this repository:
    ```
    git clone https://github.com/AirdropFamilyIDN-V2-0/fishfrenzy.git
    ```
    ```
    cd fishfrenzy
    ```
-2. Install dependencies:
    ```
    npm install
    ```
-3. Run The Script:
    ```
    node main.js
    ```
-### OPTIONAL
-- Auto Create Account :
+
+   
+### HOW TO RUN AUTO REFF
   ```
-  node setup.js
+  pip install requests colorama
   ```
+  ```
+  python autoreff.py
+  ```
+  
+  
 ## ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 This project is licensed under the [MIT License](LICENSE).
