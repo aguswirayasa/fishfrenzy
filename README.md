@@ -68,12 +68,9 @@ put your proxy in file `proxy.txt` format `http://username:pass@ip:port` `http:/
    ```
 
    
-### HOW TO RUN AUTO REFF
+### HOW TO RUN AUTO CREATE ACCOUNTS
   ```
-  pip install requests colorama
-  ```
-  ```
-  python autoreff.py
+  node setup.js
   ```
   
   
