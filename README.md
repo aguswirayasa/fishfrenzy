@@ -5,8 +5,9 @@ Building the onchain economy with @base. Fishing is just the start. 🐟 Develop
 - Twitter [@FishingFrenzyCo](https://x.com/fishingfrenzyco)
 - Website [https://fishingfrenzy.co](https://fishingfrenzy.co?code=KNL876)
 
-![29 11 2024_04 09 27_REC](https://github.com/user-attachments/assets/64bc9071-1101-46f3-9f35-f743b272609f)
+![29 11 2024_04 36 14_REC](https://github.com/user-attachments/assets/519e5319-2777-41a8-b864-a9cad462dee4)
 
+![29 11 2024_04 09 27_REC](https://github.com/user-attachments/assets/64bc9071-1101-46f3-9f35-f743b272609f)
 
 ## Features
 
@@ -46,8 +47,6 @@ Building the onchain economy with @base. Fishing is just the start. 🐟 Develop
 ## Requirements
 - **Node.js**: Ensure you have Node.js installed.
 - **npm**: Ensure you have npm installed.
-
-  ![intro](image-1.png)
 
 if you already have account you can put `fishAuth` to `tokens.txt`,
 
