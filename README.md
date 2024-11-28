@@ -44,6 +44,10 @@ Building the onchain economy with @base. Fishing is just the start. 🐟 Develop
 
 - The text that appears is your token, copy the text and paste to ``tokens.txt`` perlines
 
+# MANUAL GET TOKEN
+- Press F12 or CTRL + SHIFT + I
+- ![29 11 2024_06 54 35_REC](https://github.com/user-attachments/assets/1f03a857-022f-41e5-addf-2dc701918306)
+
 ## Requirements
 - **Node.js**: Pastikan Nodejs sudah terinstall
 - https://nodejs.org/dist/v18.12.0/node-v18.12.0-x64.msi
